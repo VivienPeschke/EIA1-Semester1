@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/bg.png);
+    background-size: auto;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    border-radius: 0px 0px 10px 10px;
+    background:black;
+    padding: 15px; 
+    width: 200px;
+    height: 10px; 
+    font-size: 15px;
+}
+
+li{
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+head{
+    text-align: center;
+    text-decoration: burlywood;
+}
