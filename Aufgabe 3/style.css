@@ -74,11 +74,19 @@ a:hover{
     color: #B63517;
 }
 
-.icon{
+.icon{ 
 position: absolute;
 margin-left: 375px;
-margin-top: 400px;
-color: white;
+margin-top: 385px;
+opacity: 50%;
+}
+
+.icon:hover{
+    opacity: 100%;
+}
+
+.icon>a{
+    background: none;
 }
 
 .smallheadline{
@@ -89,4 +97,8 @@ color: white;
 
 .inhalt{
     padding-top: 10px;
+}
+
+.here{
+    color: #B63517;
 }
