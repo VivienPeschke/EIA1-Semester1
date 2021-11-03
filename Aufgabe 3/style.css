@@ -7,7 +7,6 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     width: 800px;
-
 }
 
 #nav{
@@ -18,7 +17,7 @@ body{
     padding: 5px;
     font-size: 15px;
     margin-left: 600px;
-    margin-top: 0px;
+    margin-top: -20px;
     z-index: 1;
     background-color: black;
     color: white;
@@ -37,7 +36,7 @@ body{
     width: 800px;
     height: 800px;
     border-radius: 500px;
-    z-index: 0;
+    z-index: -1;
 }
 
 h1{
@@ -84,5 +83,6 @@ color: white;
 
 .smallheadline{
     color: #B63517;
-    margin-top: 0px;
+    padding-top: 500px;
+    font-size: 15px;
 }
