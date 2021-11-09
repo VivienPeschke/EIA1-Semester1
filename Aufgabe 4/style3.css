@@ -1,0 +1,59 @@
+body{
+    background-image: url(Station_3_Hover/images/bg.png);
+    background-size: auto;
+    width: 800px;
+    height: auto;
+}
+
+.headline{
+    position: absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+
+.wrapper{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 400px;
+}
+
+.stern1{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 450px;
+}
+
+.stern1:hover{
+    background-image: url(Station_3_Hover/images/stern_hover.png);
+}
+
+.stern2{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 560px;
+}
+
+.stern2:hover{
+    background-image: url(Station_3_Hover/images/stern_hover.png);
+}
+
+.stern3{
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 650px;
+}
+
+.stern3:hover{
+    background-image: url(Station_3_Hover/images/stern_hover.png);
+}
+
+.stern4{
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 850px;
+}
+
+.stern4:hover{
+    background-image: url(Station_3_Hover/images/stern_hover.png);
+}
