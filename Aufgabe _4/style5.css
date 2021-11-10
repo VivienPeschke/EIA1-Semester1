@@ -1,0 +1,26 @@
+body{
+    background-image: url(Station_5_Forms/images/bg.png);
+    background-size: auto;
+    width: 800px;
+    height: auto;
+}
+
+.headline{
+    position: absolute;
+    color: white;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+
+.wrapper{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 400px;
+}
+
+.forms{
+    position: absolute;
+    color: white;
+    margin-top: 250px;
+    margin-left: 450px;
+}
