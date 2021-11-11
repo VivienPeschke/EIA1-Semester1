@@ -1,0 +1,1 @@
+var string: ("Die Emssionswerte von Europa")
