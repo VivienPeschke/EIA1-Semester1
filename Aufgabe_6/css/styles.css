@@ -16,9 +16,8 @@ img:hover{
     opacity: 50%;
 }
 
-.chartwrapper{
-    background-color: white;
-    opacity: 50%;
+.chartwrapper {
+    background: rgba(255, 255, 255, 0.5);
     position: relative;
     margin-top: auto;
     margin-left: auto;
@@ -28,15 +27,11 @@ img:hover{
 }
 
 .chartwrapper #chart{
-    background-color: white;
-    opacity: 100%;
-    position: relative;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
+    background: white;
+    position: absolute;
+    margin-top: 100px;
+    height: 20px;
     width: 50px;
-    z-index: 2;
 }
 
 section {

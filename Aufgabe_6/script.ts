@@ -60,7 +60,7 @@ window.addEventListener("load", function(){
         document.querySelector(".growth").innerHTML = eu0818 + "%";
         document.querySelector(".growthabsolute").innerHTML = String(eu18zu08);
         /*Chart Anzeige*/
-        document.getElementById("#chart").style.height = euwelt;
+        document.querySelector("#chart").style.height.innerHTML = String(euwelt);
     });
 });
 /*Nordamerika*/
