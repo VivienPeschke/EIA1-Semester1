@@ -1,0 +1,80 @@
+body{
+    background: #000;
+    width: 800px;
+    height: 500px;
+}
+
+.firstline{
+    width: 800px;
+    height: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: autos;
+}
+
+.box1{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    position: relative;
+    display: inline-block;
+}
+
+.box2{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    position: relative;
+    display: inline-block;
+}
+
+.box3{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    position: relative;
+    display: inline-block;
+}
+
+/*--
+.firstline{
+    width: 800px;
+    height: 150px;
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.firstline.box1{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+}
+
+.firstline.box2{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+}
+
+.firstline.box3{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+}
+
+.secondline.box4{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FF5AB0, #2167D4 );
+    position: relative;
+    margin-top: auto;
+    margin-left: auto;
+} --*/
