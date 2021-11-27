@@ -4,12 +4,13 @@ body{
     height: 500px;
 }
 
-.firstline{
-    width: 800px;
-    height: 150px;
-    position: relative;
-    margin-left: auto;
-    margin-right: autos;
+.drumpad{
+    position: absolute;
+    width: 458px;
+    height: 458px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .box1{
@@ -17,8 +18,11 @@ body{
     width: 150px;
     border-radius: 5px;
     background: linear-gradient(to bottom, #3D94F5, #2167D4 );
-    position: relative;
     display: inline-block;
+}
+
+.box1:hover{
+    background: #75B9FC;
 }
 
 .box2{
@@ -26,8 +30,11 @@ body{
     width: 150px;
     border-radius: 5px;
     background: linear-gradient(to bottom, #3D94F5, #2167D4 );
-    position: relative;
     display: inline-block;
+}
+
+.box2:hover{
+    background: #75B9FC;
 }
 
 .box3{
@@ -35,46 +42,95 @@ body{
     width: 150px;
     border-radius: 5px;
     background: linear-gradient(to bottom, #3D94F5, #2167D4 );
-    position: relative;
     display: inline-block;
 }
 
-/*--
-.firstline{
-    width: 800px;
-    height: 150px;
-    position: relative;
-    margin-top: auto;
-    margin-left: auto;
+.box3:hover{
+    background: #75B9FC;
 }
 
-.firstline.box1{
+.box4{
     height: 150px;
     width: 150px;
     border-radius: 5px;
-    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
 }
 
-.firstline.box2{
+.box4:hover{
+    background: #FF8DCE;
+}
+
+.box5{
     height: 150px;
     width: 150px;
     border-radius: 5px;
-    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
 }
 
-.firstline.box3{
+.box5:hover{
+    background: #FF8DCE;
+}
+
+.box6{
     height: 150px;
     width: 150px;
     border-radius: 5px;
-    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
 }
 
-.secondline.box4{
+.box6:hover{
+    background: #FF8DCE;
+}
+
+.box7{
     height: 150px;
     width: 150px;
     border-radius: 5px;
-    background: linear-gradient(to bottom, #FF5AB0, #2167D4 );
-    position: relative;
-    margin-top: auto;
-    margin-left: auto;
-} --*/
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
+}
+
+.box7:hover{
+    background: #FF8DCE;
+}
+
+.box8{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #F5A33D, #C86803 );
+    display: inline-block;
+}
+
+.box8:hover{
+    background: #F9BF80;
+}
+
+.box9{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #F5A33D, #C86803 );
+    display: inline-block;
+}
+
+.box9:hover{
+    background: #F9BF80;
+}
+
+.play{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: (-50%, -50%);
+    margin-top: 250px;
+    margin-left: -75px;
+    display: inline-flex;
+}
+
+.play:hover{
+    opacity: 50%;
+}
