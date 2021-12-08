@@ -28,15 +28,15 @@ window.addEventListener("load", function () {
         }, 1500);
     }
     /*Zuweisung der einzelnen Sounds und des Beats auf die jeweiligen Knöpfe*/
-    document.querySelector("#kick").addEventListener('click', function () { playSample(kick); });
-    document.querySelector("#hihat").addEventListener('click', function () { playSample(hihat); });
-    document.querySelector("#snare").addEventListener('click', function () { playSample(snare); });
-    document.querySelector("#A").addEventListener('click', function () { playSample(TonA); });
-    document.querySelector("#C").addEventListener('click', function () { playSample(TonC); });
-    document.querySelector("#F").addEventListener('click', function () { playSample(TonF); });
-    document.querySelector("#G").addEventListener('click', function () { playSample(TonG); });
-    document.querySelector("#laugh1").addEventListener('click', function () { playSample(laugh1); });
-    document.querySelector("#laugh2").addEventListener('click', function () { playSample(laugh2); });
-    document.querySelector(".play").addEventListener('click', playsimplebeat);
+    document.querySelector("#kick").addEventListener("click", function () { playSample(kick); });
+    document.querySelector("#hihat").addEventListener("click", function () { playSample(hihat); });
+    document.querySelector("#snare").addEventListener("click", function () { playSample(snare); });
+    document.querySelector("#A").addEventListener("click", function () { playSample(TonA); });
+    document.querySelector("#C").addEventListener("click", function () { playSample(TonC); });
+    document.querySelector("#F").addEventListener("click", function () { playSample(TonF); });
+    document.querySelector("#G").addEventListener("click", function () { playSample(TonG); });
+    document.querySelector("#laugh1").addEventListener("click", function () { playSample(laugh1); });
+    document.querySelector("#laugh2").addEventListener("click", function () { playSample(laugh2); });
+    document.querySelector(".play").addEventListener("click", playsimplebeat);
 });
 //# sourceMappingURL=drumscript.js.map

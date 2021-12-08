@@ -1,0 +1,157 @@
+body{
+    background: #000;
+    width: 800px;
+    height: 500px;
+}
+
+.drumpad{
+    position: absolute;
+    width: 458px;
+    height: 458px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    display: inline-block;
+}
+
+.box1:hover{
+    background: #75B9FC;
+}
+
+.box2{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    display: inline-block;
+}
+
+.box2:hover{
+    background: #75B9FC;
+}
+
+.box3{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3D94F5, #2167D4 );
+    display: inline-block;
+}
+
+.box3:hover{
+    background: #75B9FC;
+}
+
+.box4{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
+}
+
+.box4:hover{
+    background: #FF8DCE;
+}
+
+.box5{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
+}
+
+.box5:hover{
+    background: #FF8DCE;
+}
+
+.box6{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
+}
+
+.box6:hover{
+    background: #FF8DCE;
+}
+
+.box7{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FF5AB0, #F00680 );
+    display: inline-block;
+}
+
+.box7:hover{
+    background: #FF8DCE;
+}
+
+.box8{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #F5A33D, #C86803 );
+    display: inline-block;
+}
+
+.box8:hover{
+    background: #F9BF80;
+}
+
+.box9{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #F5A33D, #C86803 );
+    display: inline-block;
+}
+
+.box9:hover{
+    background: #F9BF80;
+}
+
+.btn{
+    top:50%;
+    left:50%;
+    transform: (-50%, -50%);
+    margin-top: 250px;
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    display: inline-flex;
+}
+
+#playbtn{
+    margin-left: -80px;
+}
+
+#stopbtn{
+    margin-left: -80px;
+}
+
+#trashbtn{
+    margin-left: 50px;
+}
+
+#randombtn{
+    margin-left: -300px;
+}
+
+#recbtn{
+    margin-left: 280px;
+}
+
+i:hover{
+    opacity: 50%;
+}
