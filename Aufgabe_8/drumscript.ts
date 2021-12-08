@@ -16,7 +16,7 @@ window.addEventListener("load", function(): void {
         } 
     }
 
-    //Generiert einen Shuffle Beat aus Kick, Snare und HH mit 6 Schlägen (3/4 Takt)
+    //Beat mit Kick, HiHat und Snare
     function shuffle(): void {
         clearBeat();
         for (let i: number = 0; i < 6; i++) {
