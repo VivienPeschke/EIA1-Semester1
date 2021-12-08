@@ -29,6 +29,9 @@ window.addEventListener("load", function(): void {
         beatone = [];
     }
 
+
+    var btn: HTMLElement = document.querySelector("#playbtn");
+
     //Beat aus Array spielt im Loop
     function playSample(): void {
         playing = true;
@@ -46,13 +49,18 @@ window.addEventListener("load", function(): void {
             }
             index++;
         }
-        document.getElementById("#playbtn").setAttribute("class", "fas fa-stop");
+
+        if (btn.getAttribute("class"), "fas fa-play") {
+            btn.setAttribute("class", "fas fa-stop");
+        }   
     }
 
     //Stoppt Beat
     function stopBeat(): void {
         playing = false;
-        document.getElementById("#playbtn").setAttribute("class", "fas fa-play");
+        if (btn.getAttribute("class"), "fas fa-stop") {
+            btn.setAttribute("class", "fas fa-play");
+        }   
     }
 
     //Startet Aufnahme im geleerten Array
@@ -83,4 +91,3 @@ window.addEventListener("load", function(): void {
     document.querySelector("#randombtn").addEventListener("click", shuffle);
     document.querySelector("#trashbtn").addEventListener("click", clearBeat);
 });
-

@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
             beatone.push(sample);
         }
     }
-    //Generiert einen Shuffle Beat aus Kick, Snare und HH mit 6 Schlägen (3/4 Takt)
+    //Beat mit Kick, HiHat und Snare
     function shuffle() {
         clearBeat();
         for (var i = 0; i < 6; i++) {
@@ -24,6 +24,7 @@ window.addEventListener("load", function () {
     function clearBeat() {
         beatone = [];
     }
+    var btn = document.querySelector("#playbtn");
     //Beat aus Array spielt im Loop
     function playSample() {
         playing = true;
@@ -43,12 +44,16 @@ window.addEventListener("load", function () {
             }
             index++;
         }
-        document.getElementById("#playbtn").setAttribute("class", "fas fa-stop");
+        if (btn.getAttribute("class"), "fas fa-play") {
+            btn.setAttribute("class", "fas fa-stop");
+        }
     }
     //Stoppt Beat
     function stopBeat() {
         playing = false;
-        document.getElementById("#playbtn").setAttribute("class", "fas fa-play");
+        if (btn.getAttribute("class"), "fas fa-stop") {
+            btn.setAttribute("class", "fas fa-play");
+        }
     }
     //Startet Aufnahme im geleerten Array
     function startRecording() {
