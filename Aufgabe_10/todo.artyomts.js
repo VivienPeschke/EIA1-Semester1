@@ -88,4 +88,4 @@ window.addEventListener("load", function () {
         displayList();
     }
 });
-//# sourceMappingURL=todo.js.map
+//# sourceMappingURL=todo.artyomts.js.map
