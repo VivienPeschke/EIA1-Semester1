@@ -1,0 +1,94 @@
+html {
+    background-color: #08470b;
+    height: 720px;
+    width: 1280px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#field{
+    margin-top: 25px;
+    margin-left: 150px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#matchfield{
+    display: inline-flex;
+}
+
+.karte{
+    display: inline-flex;
+    height: 175px;
+    margin: 5px;
+    
+}
+
+.karte:hover{
+    transform: scale(1.1);
+}
+
+#pcfield{
+    height: 225px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+#pchand{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+#openfield{
+    height: 225px;
+    border-radius: 20px;
+    background-color: palegreen;
+}
+
+#opencard{
+    color: #000;
+}
+
+.open{
+    display: inline;
+    position: center;
+    height: 175px;
+    margin: 2px;
+    padding: 1px;
+    
+}
+
+#deckfield{
+    height: 225px;
+    border-radius: 20px;
+    background-color: paleturquoise;
+}
+
+#deckofcards{
+    color: #000;
+}
+
+.deck{
+    display: inline;
+    position: center;
+    height: 175px;
+    
+}
+
+#playerfield{
+    height: 225px;
+    border-radius: 20px;
+    background-color: peachpuff;
+}
+
+#playerhand{
+    color: #000;
+}
+
+.student{
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+
+}

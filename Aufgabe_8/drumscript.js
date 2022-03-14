@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
     //Beat mit Kick, HiHat und Snare
     function shuffle() {
         clearBeat();
-        for (var i = 0; i < 6; i++) {
+        for (var i_1 = 0; i_1 < 6; i_1++) {
             beatone.push(SOUND[Math.floor((Math.random() * 3))]);
         }
     }

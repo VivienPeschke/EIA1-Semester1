@@ -15,11 +15,11 @@ window.addEventListener("load", function () {
     }
     function displayList() {
         list.innerHTML = "";
-        var _loop_1 = function (i) {
-            var todo = allToDos[i];
-            todo.toDoId = i.toString();
-            todo.checkmarkId = "check" + i.toString();
-            todo.trashId = "trash" + i.toString();
+        var _loop_1 = function (i_1) {
+            var todo = allToDos[i_1];
+            todo.toDoId = i_1.toString();
+            todo.checkmarkId = "check" + i_1.toString();
+            todo.trashId = "trash" + i_1.toString();
             var newToDo_1 = document.createElement("li");
             var node = document.createTextNode(todo.content);
             var idToDo = document.createAttribute("id");
@@ -34,7 +34,7 @@ window.addEventListener("load", function () {
             var trash = document.createAttribute("class");
             trash.value = "far fa-trash-alt";
             trashIcon.setAttributeNode(trash);
-            if (allToDos[i].checked == false) {
+            if (allToDos[i_1].checked == false) {
                 checked.value = "far fa-circle";
                 checkbox.setAttributeNode(checked);
             }
@@ -51,8 +51,8 @@ window.addEventListener("load", function () {
             checkbox.addEventListener("click", function () { checkToDo(idChecked.value); });
             trashIcon.addEventListener("click", function () { deleteToDo(idTrash.value); });
         };
-        for (var i = 0; i < allToDos.length; i++) {
-            _loop_1(i);
+        for (var i_1 = 0; i_1 < allToDos.length; i_1++) {
+            _loop_1(i_1);
         }
         if (allToDos.length != 1) {
             document.querySelector("#numberOfToDos").innerHTML = (allToDos.length).toString() + " tasks";
@@ -63,8 +63,8 @@ window.addEventListener("load", function () {
         toDoInput.value = "";
     }
     function checkToDo(id) {
-        for (var i = 0; i < allToDos.length; i++) {
-            var todo = allToDos[i];
+        for (var i_2 = 0; i_2 < allToDos.length; i_2++) {
+            var todo = allToDos[i_2];
             if (todo.checkmarkId == id) {
                 var check = document.querySelector("#" + id);
                 if (todo.checked == false) {
@@ -79,10 +79,10 @@ window.addEventListener("load", function () {
         }
     }
     function deleteToDo(id) {
-        for (var i = 0; i < allToDos.length; i++) {
-            var todo = allToDos[i];
+        for (var i_3 = 0; i_3 < allToDos.length; i_3++) {
+            var todo = allToDos[i_3];
             if (todo.trashId == id) {
-                allToDos.splice(i, 1);
+                allToDos.splice(i_3, 1);
             }
         }
         displayList();
